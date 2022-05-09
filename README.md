@@ -1,4 +1,4 @@
-# CustomSnackBar
+# 👋CustomSnackBar
 
 SnackBar는 디바이스의 화면 하단에 작업에 대한 간단한 피드백 또는 메시지를 제공할 때 사용하며 화면의 가장 위에 나타나며 한 번에 하나씩 표시할 수 있습니다.
 
@@ -8,7 +8,7 @@ SnackBar는 일반적으로 시간 초과 또는 화면의 다른 곳에서 사�
 
 <br>
 
-1. NotificationSnackBar를 구현하기 위해 사용하기 위해선 DataBinding 종속성을 추가와 Strings 리소스 파일에 same_value_exists에 대한 변수가 선언되어야 합니다.
+1. 준비사항 : NotificationSnackBar를 구현하기 위해 사용하기 위해선 DataBinding 종속성을 추가와 Strings 리소스 파일에 same_value_exists에 대한 변수가 선언이 필요하고 Lottie 중속성 추가와 raw 디렉토리에 notification_character에 대한 json 리소스 파일이 필요합니다.
 
 2. 사용법 : NotificationSnackBar를 화면에 표시하기 위해서 표시하고자 하는 부모 View와 문자열을 인자로 전달해야 합니다.
 ```
@@ -17,3 +17,8 @@ NotificationSnackBar.make(
                                 resources.getString(R.string.same_value_exists)
                             ).show()
 ```
+<br>
+
+![커스텀 스낵바](https://user-images.githubusercontent.com/68982398/167339809-7d8361e0-dc0e-469f-949b-ef6f1fc962c8.PNG)
+
+Lottie Animation 춡처 : https://lottiefiles.com/trufffle
